@@ -1,0 +1,23 @@
+{
+    "name": "meetyourmakers1/betterphp",
+    "description": "PHP FrameWork",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zaizai",
+            "email": "3458194688@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "core/function.php"
+        ],
+        "psr-4": {
+            "core\\": "core",
+            "app\\": "app"
+        }
+    }
+}
